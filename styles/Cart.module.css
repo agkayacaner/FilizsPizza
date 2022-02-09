@@ -20,6 +20,7 @@
 .table {
   width: 100%;
   border-spacing: 20px;
+  text-align: left;
 }
 
 .name {
@@ -56,6 +57,22 @@
   font-weight: bold;
   cursor: pointer;
   margin-top: 20px;
+}
+
+.paymentMethods {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.payButton {
+  padding: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 5px;
+  background-color: white;
+  color: teal;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 480px) {
